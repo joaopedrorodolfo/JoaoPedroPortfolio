@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>João Pedro</title>
+<link rel="icon" type="image/png" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader">
+  <h1 id="text-target" class="animate__animated animate__fadeInUp">Hello</h1>
+</div>
+
+<header class="header">
+  <div class="logo">JOÃO PEDRO RODOLFO</div>
+  <nav class="menu">
+    <a href="#sobre">SOBRE</a>
+    <a href="#servicos">PROJETOS</a>
+    <a href="#contato">CONTATO</a>
+  </nav>
+  <div class="lang-switcher">
+    <span class="lang-divider">|</span>
+    <button class="lang-btn active" data-lang="pt">PT</button>
+    <span class="lang-slash">/</span>
+    <button class="lang-btn" data-lang="en">EN</button>
+    <span class="lang-slash">/</span>
+    <button class="lang-btn" data-lang="es">ES</button>
+  </div>
+</header>
+
+<section class="inicial">
+  <img src="img/hero.jpg" class="fotoperfil">
+  <img src="img/hero2.png" class="fotoperfil2">
+  <div class="carrosel">
+    <h1 class="nomeani">
+      <span class="animado">
+        <span class="animanome">João Pedro Rodolfo</span>
+        <span class="animanome">João Pedro Rodolfo</span>
+        <span class="animanome">João Pedro Rodolfo</span>
+      </span>
+    </h1>
+  </div>
+  <div class="bioinfo">
+    <p id="hero-cargo">Desenvolvedor Front-end</p>
+    <p id="hero-tech">HTML, CSS e JavaScript</p>
+  </div>
+  <div class="localizacao" id="hero-local">SÃO PAULO, BRASIL</div>
+</section>
+
+<section class="scroll-container">
+  <div class="sticky-content">
+    <div class="container">
+      <div class="manifesto-header">
+        <span class="label">João Pedro Rodolfo</span>
+      </div>
+      <div class="reveal-text" id="reveal-text">
+        VOCÊ NÃO PRECISA SER GRANDE PARA COMEÇAR, MAS PRECISA COMEÇAR PARA SER GRANDE.
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="rolagem">
+  <div class="horizontal-wrapper">
+
+    <section id="sobre" class="panel section-1" style="--bg-color: #efefef; --accent-color: #000000;">
+      <div class="content">
+        <div class="top-info"><span class="page-number">Habilidades - Sobre mim</span></div>
+        <div class="main-title-wrapper">
+          <h1 class="main-title">HTML, CSS e JS</h1>
+          <div class="circle-overlay"></div>
+        </div>
+        <div class="description-wrapper">
+          <h2 class="sub-title">Criando interfaces modernas</h2>
+          <p class="description">Estou desenvolvendo habilidades em HTML, CSS e JavaScript para criar interfaces responsivas, interativas e bem estruturadas, unindo design e funcionalidade.</p>
+        </div>
+        <div class="footer-info">
+          <div class="tags">
+            <span class="tag">Layout</span>
+            <span class="tag">Estilo</span>
+            <span class="tag">Interação</span>
+            <span class="tag">Responsivo</span>
+          </div>
+          <div class="year">2026</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel section-2" style="--bg-color: #fafafa; --accent-color: #000000;">
+      <div class="content">
+        <div class="top-info"><span class="page-number">Habilidades - Sobre mim</span></div>
+        <div class="main-title-wrapper">
+          <h1 class="main-title">JAVA</h1>
+          <div class="circle-overlay"></div>
+        </div>
+        <div class="description-wrapper">
+          <h2 class="sub-title">Construindo lógica com Java</h2>
+          <p class="description">Estou desenvolvendo minha base em Java, focando em lógica de programação, orientação a objetos e criação de aplicações robustas e escaláveis.</p>
+        </div>
+        <div class="footer-info">
+          <div class="tags">
+            <span class="tag">POO</span>
+            <span class="tag">Lógica</span>
+            <span class="tag">Projetos</span>
+          </div>
+          <div class="year">2026</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel section-3" style="--bg-color: #fff3e2; --accent-color: #000000;">
+      <div class="content">
+        <div class="top-info"><span class="page-number">Habilidades - Sobre mim</span></div>
+        <div class="main-title-wrapper">
+          <h1 class="main-title">SQL</h1>
+          <div class="circle-overlay"></div>
+        </div>
+        <div class="description-wrapper">
+          <h2 class="sub-title">Dominando dados com SQL</h2>
+          <p class="description">Estou aprendendo a trabalhar com bancos de dados, criando consultas eficientes, organizando informações e extraindo insights através do SQL.</p>
+        </div>
+        <div class="footer-info">
+          <div class="tags">
+            <span class="tag">Consultas</span>
+            <span class="tag">Modelagem</span>
+            <span class="tag">Dados</span>
+          </div>
+          <div class="year">2026</div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<section id="servicos" class="coming-soon pixel-section">
+  <div class="background-glow"></div>
+  <canvas id="pixel-canvas"></canvas>
+  <div class="pixelef">
+    <div class="embreve">
+      <h1 id="tituloembreve">Projetos Em Breve</h1>
+      <p id="subembreve">
+        <span id="subtiembreve"></span><span class="typing-cursor"></span>
+      </p>
+      <div class="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-circle-inner"></div>
+        <div class="loader-dot"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="contato">
+  <div class="contatonome">João Pedro</div>
+  <div class="contatocarrossel">
+    <div class="carousel-track" id="carouselTrack"></div>
+  </div>
+  <div class="contact-info">
+    <a href="mailto:joaopedro20rodolfo@gmail.com" class="email-link">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+        <polyline points="22,6 12,13 2,6"></polyline>
+      </svg>
+      joaopedro20rodolfo@gmail.com
+    </a>
+    <a href="#" class="contact-button" id="contact-button-text">Entrar em contato</a>
+    <div class="social-icons">
+      <a href="#" class="social-btn" title="Instagram">
+        <span class="icon-placeholder"><img src="img/instagram.png" alt=""></span>
+      </a>
+      <a href="#" class="social-btn" title="LinkedIn">
+        <span class="icon-placeholder"><img src="img/linkedin.png" alt=""></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+<script src="traducao.js"></script>
+</body>
+</html>
