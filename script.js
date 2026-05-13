@@ -219,7 +219,7 @@ function setupContactButton() {
   if (contactBtn) {
     contactBtn.addEventListener('click', (e) => {
       e.preventDefault();
-      window.open('wa.me//5511987862267');
+      window.open('https://wa.me//5511987862267');
     });
   }
 }
